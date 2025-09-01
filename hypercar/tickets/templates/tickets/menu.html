@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+</head>
+<body>
+<a href="{% url 'tickets:line' service_name='inflate_tires' %}">Inflate tires</a>
+<br>
+<a href="{% url 'tickets:line' service_name='change_oil' %}">Change oil</a>
+<br>
+<a href="{% url 'tickets:line' service_name='diagnostic' %}">Diagnostic</a>
+</body>
+</html>
