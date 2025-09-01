@@ -28,12 +28,15 @@ A Django-based web application for managing electronic queue. Pages for servicem
 
 ## 📱 Screenshots
 
-### Welcome Page
-![Welcome Page](screenshots/welcome.png)
+### Taking a ticket
+<img width="676" height="405" alt="Menu" src="https://github.com/user-attachments/assets/c873d4ce-af14-4964-b8da-bf1cdabc2f6e" />
+<img width="615" height="379" alt="The Ticket" src="https://github.com/user-attachments/assets/4343cd9b-ff55-4b30-8436-587790655fa0" />
 
-### Service Menu
-![Service Menu](screenshots/menu.png)
+### Queue page
+<img width="806" height="339" alt="Wellcome" src="https://github.com/user-attachments/assets/32d1c08c-cde7-40b5-acc6-0eca69b6af72" />
+<img width="584" height="197" alt="Next_In_Line" src="https://github.com/user-attachments/assets/f7bf1603-d787-43d1-8470-c6be840e0cef" />
 
-### Queue Processing
-![Queue Processing](screenshots/processing.png)
+### Serviceman page
+<img width="529" height="426" alt="Processing" src="https://github.com/user-attachments/assets/42f8f0c4-5500-4fa2-b43e-f5f3def39581" />
+
 
