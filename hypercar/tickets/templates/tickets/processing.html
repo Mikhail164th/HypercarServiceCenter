@@ -2,15 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Processing</title>
+    <title>Processing Queue - Hypercar Service Center</title>
 </head>
-<body>
-<div>Change oil queue: {{ change_oil }}</div>
-<div>Inflate tires queue: {{ inflate_tires }}</div>
-<div>Get diagnostic queue: {{ diagnostic }}</div>
-
-<form action="{% url "tickets:processing" %}" method="post"> {% csrf_token %}
-  <button type="submit">Process next</button>
-</form>
+<body bgcolor="#f5f5f5" text="#2c3e50">
+    <center>
+        <h1><font face="Arial, sans-serif" color="#2c3e50" size="6">⚙️ Processing Queue</font></h1>
+        <br>
+        <div><font face="Arial, sans-serif" color="#27ae60" size="4"><b>Change oil queue: {{ change_oil }}</b></font></div>
+        <br>
+        <div><font face="Arial, sans-serif" color="#f39c12" size="4"><b>Inflate tires queue: {{ inflate_tires }}</b></font></div>
+        <br>
+        <div><font face="Arial, sans-serif" color="#3498db" size="4"><b>Get diagnostic queue: {{ diagnostic }}</b></font></div>
+        <br><br>
+        <form action="{% url 'tickets:processing' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" style="background-color: #3498db; color: white; border: none; padding: 15px 30px; font-size: 18px; font-family: Arial, sans-serif; cursor: pointer;">
+                <b>🔄 Process next</b>
+            </button>
+        </form>
+    </center>
 </body>
 </html>
